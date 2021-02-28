@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 
+
     header{
         width: 100%;
         justify-content:center;
@@ -35,6 +36,44 @@
             box-shadow: 10px 10px 10px 10px;
             text-align: center;
             margin: 10px 0 10px 0;
+        }
+        #partenaires{
+            width: 100%;
+            justify-content: center;
+           
+            h2{
+                text-align: center;
+                margin: 30px 0 0 30px;
+              
+            }
+            .carousel-fade{
+                justify-content: center;
+                width: 300px;
+                margin: auto;
+                border-radius: 10px;
+                .carousel-inner{
+                    text-align: center;
+                }
+            }
+            .temoin{
+                text-align: center;
+                p{
+                    justify-content: center;
+                }
+            }
+        }
+    }
+    footer{
+        .liste{
+            list-style: none;
+            display: flex;
+            li{
+                margin: auto;
+                a{
+                    margin: 0 20px 0 20px;
+                  
+                }
+            }
         }
     }
 }
